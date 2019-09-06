@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    width: 100%;
+    height: 800px;
+    float: right;
+    background-image: url("../img/background.jpg");
+}
+hr{
+    padding: 0;
+    border: none;
+    margin: 0;
+}
+.content .navTop{
+    width: 100%;
+    height: 40px;
+}
+.navTop__submit,.navTop__print{
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
+    width: 70px;
+    height: 26px;
+    border-radius: 10px;
+    border:none;
+    background-color: #99FFFF;
+}
+.navTop__submit:hover,.navTop__print:hover{
+    background-color: blanchedalmond;
+}
+.navTop__upload{
+    width: 70px;
+    float: right;
+    opacity: 0;
+}
+.navTop__upload-outDiv{
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
+    width: 70px;
+    border-radius: 10px;
+    border:none;
+    background-color: #99FFFF;
+    background-image: url("../img/uploadicon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.navTop__upload-outDiv:hover{
+    background-color: blanchedalmond;
+}
+
+
+
+/**
+密码修改框相关
+ */
+.pwdForm{
+    width: 40%;
+    margin: 100px auto;
+}
+.pwdForm input{
+    width: 100%;
+    height: 55px;
+    border-radius: 4px;
+    border:1px solid rgb(177, 174, 176);
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.pwdForm input:focus {
+    outline: none;
+    border: 1px solid skyblue;
+}
+.submit{
+    color: #fff;
+    background-color: rgb(54, 136, 255) ;
+    margin: 40px 0;
+}
+.submit:hover{
+    background-color: rgb(47, 124, 255) ;
+}
+
+/**
+基本信息显示框相关
+ */
+#infoUl{
+    width: 50%;
+    list-style: none;
+    margin: 200px auto;
+    border: solid orange 2px;
+    background-color: bisque;
+    border-radius: 20px;
+    box-shadow: 0 20px 50px #333;
+
+}
+#infoUl li{
+    width: 100%;
+}
+#infoUl li span{
+    width: 100%;
+    color: cornflowerblue;
+    font-size: 30px;
+    font-family: 'Open Sans',sans-serif;
+    line-height: 50px;
+}
+
+
+/**
+本css是给iframe内嵌入的jsp使用的
+ */
