@@ -88,7 +88,8 @@
             onlineDepartment+"';";
     resultSet = statement.executeQuery(sql);
 
-    filename = (int)(Math.random()*1000000)+"";
+
+    filename = "" + System.currentTimeMillis();
     String savePath = request.getServletContext().getRealPath("/WEB-INF/tmp");
     File tmpDir = new File(savePath);
     // 判断上传文件的保存目录是否存在
@@ -99,47 +100,56 @@
     }
 
     String tmpFileName = savePath + "\\" + filename+ ".xlsx";
+    //要存放的文件
+    File file = new File(tmpFileName);
+    //声明wb和sheet
+    Workbook wb = null;
+    Sheet sheet = null;
+//    /**
+//     * 判断文件是否存在
+//     * 如果存在就从这个文件得到workbook和sheet
+//     * 不存在就创建新的workbook和sheet
+//     */
+//    if(file.exists()){
+//        try {
+//            wb = new XSSFWorkbook(file);
+//            sheet = wb.getSheetAt(0);
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        } catch (InvalidFormatException e) {
+//            e.printStackTrace();
+//        }
+//    }else {
+        wb = new XSSFWorkbook();
+        sheet = wb.createSheet();
+//    }
+    /**
+     * 写入操作
+     */
 
-    while(resultSet.next()){
-        name = resultSet.getString("name");
-        account = resultSet.getString("account");
-        performance = resultSet.getString("performance");
-        /**
-         * 生成随机文件名
-         */
+    OutputStream outputStream = null;
 
-        //要存放的文件
-        File file = new File(tmpFileName);
-        //声明wb和sheet
-        Workbook wb = null;
-        Sheet sheet = null;
-        /**
-         * 判断文件是否存在
-         * 如果存在就从这个文件得到workbook和sheet
-         * 不存在就创建新的workbook和sheet
-         */
-        if(file.exists()){
-            try {
-                wb = new XSSFWorkbook(file);
-                sheet = wb.getSheetAt(0);
-            } catch (IOException e) {
-                e.printStackTrace();
-            } catch (InvalidFormatException e) {
-                e.printStackTrace();
-            }
-        }else {
-            wb = new XSSFWorkbook();
-            sheet = wb.createSheet();
-        }
-        /**
-         * 写入操作
-         */
-        //创建临时文件
-        File newFile = new File(file+".bak");
-        OutputStream outputStream = null;
-        try {
-            int rows = sheet.getPhysicalNumberOfRows();
-            Row row = sheet.createRow(rows);
+    try {
+//        int rows = sheet.getPhysicalNumberOfRows();
+        Row row = sheet.createRow(0);
+        //初始化文件标题
+        //把员工账号标题记录在第一列上
+        row.createCell(0).setCellValue("员工账号");
+        //把员工名字标题记录在第二列
+        row.createCell(1).setCellValue("员工姓名");
+        //把员工绩效标题在第三列上
+        row.createCell(2).setCellValue("员工绩效");
+        //把员工部门标题记录在第四列上
+        row.createCell(3).setCellValue("员工部门");
+
+        //开始逐条录入
+        int count = 1;//计数变量
+        while(resultSet.next()){
+            name = resultSet.getString("name");
+            account = resultSet.getString("account");
+            performance = resultSet.getString("performance");
+            //写入第count条记录
+            row = sheet.createRow(count);
             //把员工账号记录在第一列上
             row.createCell(0).setCellValue(account);
             //把员工名字记录在第二列
@@ -148,45 +158,34 @@
             row.createCell(2).setCellValue(performance);
             //把员工部门记录在第四列上
             row.createCell(3).setCellValue(onlineDepartment);
-            //写入临时文件
-            outputStream = new FileOutputStream(newFile);
-            wb.write(outputStream);
+            //计数变量自增
+            count ++;
+        }
+        //写入文件
+        outputStream = new FileOutputStream(file);
+        wb.write(outputStream);
 
-        }catch (IOException e) {
-            e.printStackTrace();
-        }finally {
-            if(wb != null) {
-                try {
-                    wb.close();
-                    /**
-                     * 要把wb关闭之后才能删除老文件file！否则file被占用 无法删除
-                     */
-                    file.delete();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-            if(out != null){
-                try {
-                    outputStream.close();
-                    /**
-                     * 要把输出流关掉之后才可以改名！！否则资源被占用
-                     */
-                    newFile.renameTo(file);
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
+    }catch (IOException e) {
+        e.printStackTrace();
+    }finally {
+        if(wb != null) {
+            try {
+                wb.close();
+            } catch (IOException e) {
+                e.printStackTrace();
             }
         }
-        }
+    }
+
+
 
     /**
      * 下载文件
      */
     //得到要下载的文件
-    File file = new File(tmpFileName);
+    File downloadfile = new File(tmpFileName);
     //如果文件不存在
-    if(!file.exists()){
+    if(!downloadfile.exists()){
         System.out.println("文件不存在!");
         return;
     }
@@ -196,19 +195,19 @@
     //读取要下载的文件，保存到文件输入流
     FileInputStream in = new FileInputStream(tmpFileName);
     //创建输出流
-    OutputStream outputStream = response.getOutputStream();
+    OutputStream output = response.getOutputStream();
     //创建缓冲区
     byte buffer[] = new byte[1024];
     int len = 0;
     //循环将输入流中的内容读取到缓冲区当中
     while((len=in.read(buffer))>0){
         //输出缓冲区的内容到浏览器，实现文件下载
-        outputStream.write(buffer, 0, len);
+        output.write(buffer, 0, len);
     }
     //关闭文件输入流
     in.close();
     //关闭输出流
-    outputStream.close();
+    output.close();
     }
 %>
 

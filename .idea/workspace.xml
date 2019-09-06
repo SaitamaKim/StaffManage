@@ -6,7 +6,15 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8023772d-3416-435b-8edb-e6df42d3ef8e" name="Default Changelist" comment="" />
+    <list default="true" id="8023772d-3416-435b-8edb-e6df42d3ef8e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/chief-exportEmpDataToExcel.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/chief-exportEmpDataToExcel.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/RightContentPanel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/RightContentPanel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/jquery-accordion-menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/jquery-accordion-menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/StaffManage/emp-changePwd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/StaffManage/emp-changePwd.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/StaffManage/emp-viewPerformance.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/StaffManage/emp-viewPerformance.jsp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,66 +41,30 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/chief.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+            <state relative-caret-position="253">
+              <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/chief-exportEmpDataToExcel.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4462">
-              <caret line="194" column="24" selection-start-line="194" selection-start-column="24" selection-end-line="194" selection-end-column="24" />
+            <state relative-caret-position="415">
+              <caret line="206" column="13" lean-forward="true" selection-start-line="206" selection-start-column="13" selection-end-line="206" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/chief-info.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/css/jquery-accordion-menu.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1909">
-              <caret line="83" column="16" lean-forward="true" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/emp-changePwd.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/chief-impEmp.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4508">
-              <caret line="196" column="35" selection-start-line="196" selection-start-column="35" selection-end-line="196" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/emp-viewPerformance.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+            <state relative-caret-position="276">
+              <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -100,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/css/RightContentPanel.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="89" column="8" lean-forward="true" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
+            <state relative-caret-position="1707">
+              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
             </state>
           </provider>
         </entry>
@@ -137,10 +109,12 @@
       <dir>D:\mywork\StaffManage</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/js/solveExcel.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/solveEmpData.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/sloveChiefDataForAdmin.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/chief-print.jsp" />
@@ -174,23 +148,24 @@
         <option value="$PROJECT_DIR$/src/main/webapp/js/showExcelForAdminOnChief.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/employee.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/storeEmpDataForAdmin.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/emp.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/admin.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/admin-info.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/chief-info.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/transferEmpDataBaseIntoExcel.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/jquery-accordion-menu.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/admin-impEmp.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/admin-impChief.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/chief-printEmp.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/chief-impEmp.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/chief.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/emp-info.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/RightContentPanel.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/emp-changePwd.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/emp-viewPerformance.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/jquery-accordion-menu.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/RightContentPanel.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/chief-exportEmpDataToExcel.jsp" />
       </list>
     </option>
   </component>
@@ -208,17 +183,18 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="348" />
-    <option name="y" value="52" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="346" />
+    <option name="y" value="50" />
     <option name="width" value="1750" />
-    <option name="height" value="1039" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,16 +220,32 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="StaffManage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StaffManage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StaffManage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StaffManage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
@@ -379,11 +371,13 @@
       <workItem from="1567556692435" duration="46534000" />
       <workItem from="1567642399460" duration="45029000" />
       <workItem from="1567728888652" duration="20092000" />
+      <workItem from="1567753503410" duration="1865000" />
+      <workItem from="1567762972796" duration="6755000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144206000" />
+    <option name="totallyTimeSpent" value="152826000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -397,7 +391,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2613941" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22050938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -405,10 +399,9 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Thumbnails" weight="0.32956153" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.2857143" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.36350778" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.04249292" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -421,6 +414,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Thumbnails" order="15" weight="0.32956153" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -487,13 +481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/xlsx.core.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="5154" selection-start-line="5" selection-start-column="5154" selection-end-line="5" selection-end-column="5154" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/StaffManage/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -503,13 +490,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/logout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -531,41 +511,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/css/LeftManagePanel.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/showExcelForAdminOnChief.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="54" column="44" lean-forward="true" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/storeChiefDataForAdmin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="77" column="5" lean-forward="true" selection-start-line="46" selection-start-column="4" selection-end-line="77" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/storeEmpDataForAdmin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-874">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/storeEmpDataForChief.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="3" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1955">
-          <caret line="130" column="1" lean-forward="true" selection-start-line="130" selection-start-column="1" selection-end-line="130" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/storeChiefDataForAdmin.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/storeEmpDataForAdmin.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/storeEmpDataForChief.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/login.css" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/editTableForAdminOnEmp.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-416">
@@ -580,12 +529,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/chief-printEmp.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/icon.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/uploadicon.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/editTableForAdminOnChief.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -594,97 +543,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery-3.4.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery-accordion-menu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
+        <state relative-caret-position="2024">
           <caret line="88" column="29" lean-forward="true" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/logout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="96" column="43" selection-start-line="96" selection-start-column="43" selection-end-line="96" selection-end-column="43" />
+        <state>
+          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/jquery-accordion-menu.css">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/showExcelForAdminOnChief.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        <state relative-caret-position="1242">
+          <caret line="54" column="44" lean-forward="true" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/chief-printEmp.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/xlsx.core.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="16" selection-start-line="16" selection-end-line="75" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin-impChief.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="129" column="10" lean-forward="true" selection-start-line="129" selection-start-column="10" selection-end-line="129" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/emp.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="71" column="33" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/emp-info.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="115">
+          <caret line="5" column="5154" selection-start-line="5" selection-start-column="5154" selection-end-line="5" selection-end-column="5154" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/admin-impEmp.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2967">
+        <state relative-caret-position="-975">
           <caret line="129" column="10" lean-forward="true" selection-start-line="129" selection-start-column="10" selection-end-line="129" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/admin-info.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
+        <state relative-caret-position="-768">
           <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/RightContentPanel.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="89" column="8" lean-forward="true" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/chief.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        <state relative-caret-position="-1941">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/icon.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/chief-exportEmpDataToExcel.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/chief-impEmp.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4462">
-          <caret line="194" column="24" selection-start-line="194" selection-start-column="24" selection-end-line="194" selection-end-column="24" />
+        <state relative-caret-position="258">
+          <caret line="196" column="35" selection-start-line="196" selection-start-column="35" selection-end-line="196" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/chief-info.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1909">
-          <caret line="83" column="16" lean-forward="true" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
+        <state relative-caret-position="51">
+          <caret line="83" column="16" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/emp.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-724">
+          <caret line="71" column="33" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -695,24 +629,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/chief-impEmp.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/emp-info.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4508">
-          <caret line="196" column="35" selection-start-line="196" selection-start-column="35" selection-end-line="196" selection-end-column="35" />
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/emp-viewPerformance.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="96" column="43" selection-start-line="96" selection-start-column="43" selection-end-line="96" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-538">
+          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin-impChief.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2599">
+          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/jquery-accordion-menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        <state relative-caret-position="253">
+          <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/background.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/RightContentPanel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1707">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/chief-exportEmpDataToExcel.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="206" column="13" lean-forward="true" selection-start-line="206" selection-start-column="13" selection-end-line="206" selection-end-column="13" />
         </state>
       </provider>
     </entry>

@@ -2,12 +2,15 @@
   margin: 0;
   padding: 0;
 }
+html,body{
+	height: 100%;
+}
 
 
 /*iframe框*/
 #contentFrame{
 	 width: 80%;
-	 height: 750px;
+	 height: 100%;
 	 float: right;
 	 border: none;
  }
@@ -17,39 +20,29 @@
 下面是左面板的所有css
  */
 .round_icon{
-  width: 50px;
-  height: 50px;
-  display: flex;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
-  align-items: center;
-  justify-content: center;
   overflow: hidden;
   border: solid skyblue 3px;
   position: fixed;
   left: 40px;
-  top: 22px;
+  top: 18px;
 }
 .briefInfo{
   position: fixed;
-  left:130px;
-  top: 15px;
+  left:155px;
+  top: 21px;
 }
-.briefInfo__name{
+.briefInfo__name,.briefInfo__account{
   display: block;
-  height: 20px;
+  height: 30px;
   color: #f0f0f0;
-  font-size: 13px;
+  font-size: 20px;
+  font-weight: lighter;
   font-family: 'Open Sans',sans-serif;
 }
-.briefInfo__account{
-  display: block;
-  color: #f0f0f0;
-  height: 20px;
-	font-size: 13px;
-  /* padding-left: 5px; */
- /* margin-top: 15px; */
-  font-family: 'Open Sans',sans-serif;
-}
+
 *{box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
 body{background:#f0f0f0;}
 .content{width:20%;float: left;}
@@ -69,10 +62,12 @@ body{background:#f0f0f0;}
 }
 
 .jquery-accordion-menu {
+	height: 100%;
 	min-width: 260px;
 	float: left;
 	position: relative;
-  box-shadow: 0 20px 50px #333;
+    box-shadow: 0 20px 50px #333;
+	overflow: hidden;
   /* height: 1000px; */
 }
 
@@ -90,7 +85,7 @@ body{background:#f0f0f0;}
   height: 100px;
 }
 .jquery-accordion-menu .jquery-accordion-menu-footer{
-  height: 420px;
+  height: 1000px;
 }
 
 .jquery-accordion-menu ul {
