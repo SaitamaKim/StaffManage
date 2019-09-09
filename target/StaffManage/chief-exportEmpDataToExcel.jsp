@@ -28,7 +28,7 @@
 <%!public void jspInit(){
     try {
         Class.forName("com.mysql.cj.jdbc.Driver");
-        conn = DriverManager.getConnection("jdbc:mysql://localhost:3308/staff?useSSL=false&serverTimezone=UTC","root","123456");
+        conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/staff?useSSL=false&serverTimezone=UTC","root","123456");
         statement = conn.createStatement();
     } catch (ClassNotFoundException e) {
         e.printStackTrace();
@@ -102,27 +102,9 @@
     String tmpFileName = savePath + "\\" + filename+ ".xlsx";
     //要存放的文件
     File file = new File(tmpFileName);
-    //声明wb和sheet
-    Workbook wb = null;
-    Sheet sheet = null;
-//    /**
-//     * 判断文件是否存在
-//     * 如果存在就从这个文件得到workbook和sheet
-//     * 不存在就创建新的workbook和sheet
-//     */
-//    if(file.exists()){
-//        try {
-//            wb = new XSSFWorkbook(file);
-//            sheet = wb.getSheetAt(0);
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        } catch (InvalidFormatException e) {
-//            e.printStackTrace();
-//        }
-//    }else {
-        wb = new XSSFWorkbook();
-        sheet = wb.createSheet();
-//    }
+    //创建wb和sheet
+    Workbook wb = new XSSFWorkbook();
+    Sheet sheet = wb.createSheet();
     /**
      * 写入操作
      */
