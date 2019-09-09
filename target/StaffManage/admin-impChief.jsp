@@ -26,7 +26,7 @@
 <%!public void jspInit(){
     try {
         Class.forName("com.mysql.cj.jdbc.Driver");
-        conn = DriverManager.getConnection("jdbc:mysql://localhost:3308/staff?useSSL=false&serverTimezone=UTC","root","123456");
+        conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/staff?useSSL=false&serverTimezone=UTC","root","123456");
         statement = conn.createStatement();
     } catch (ClassNotFoundException e) {
         e.printStackTrace();

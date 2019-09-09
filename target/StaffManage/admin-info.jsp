@@ -21,7 +21,7 @@
 <%!public void jspInit(){
     try {
         Class.forName("com.mysql.cj.jdbc.Driver");
-        conn = DriverManager.getConnection("jdbc:mysql://localhost:3308/staff?useSSL=false&serverTimezone=UTC","root","123456");
+        conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/staff?useSSL=false&serverTimezone=UTC","root","123456");
         statement = conn.createStatement();
     } catch (ClassNotFoundException e) {
         e.printStackTrace();
@@ -68,7 +68,8 @@
     resultSet = statement.executeQuery(sql);
     //如果登陆无效
     if(resultSet.isClosed() || resultSet.next()== false){
-        response.sendRedirect("index.html");
+//        response.sendRedirect("index.html");
+        %><script>parent.location.href = "index.html";</script><%
     }else {
         //如果登陆有效
 //        sql = "select * from admin where account = '"+onlineAccount+"';";

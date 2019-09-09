@@ -72,12 +72,8 @@
     resultSet = statement.executeQuery(sql);
     //如果登陆无效
     if(resultSet.isClosed() || resultSet.next()== false){
-        response.sendRedirect("index.html");
+        %><script>parent.location.href = "index.html";</script><%
     }else {
-        //如果登陆有效
-//        sql = "select * from employee where account = '"+onlineAccount+"';";
-//        resultSet = statement.executeQuery(sql);
-//        resultSet.next();
         name = resultSet.getString("name");
         performance = resultSet.getString("performance");
         department = resultSet.getString("department");
