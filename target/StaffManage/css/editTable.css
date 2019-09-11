@@ -47,6 +47,7 @@ td {
     overflow: hidden;
     white-space: nowrap;
     color: #fff;
+	width : 40px;
     font-size: 12px;
     height: 25px;
     line-height: 25px;

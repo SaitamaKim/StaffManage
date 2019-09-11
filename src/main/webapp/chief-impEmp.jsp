@@ -92,11 +92,7 @@
     if(resultSet.isClosed() || resultSet.next()== false){
         %><script>parent.location.href = "index.html";</script><%
     }else{
-        //如果登陆有效
-        //先查询到所在的部门
-//        sql = "select department from chief where account='"+onlineAccount+"';";
-//        resultSet = statement.executeQuery(sql);
-//        resultSet.next();
+
         onlineDepartment = resultSet.getString("department");
     }
 %>

@@ -75,7 +75,7 @@
     resultSet = statement.executeQuery(sql);
     //如果登陆无效
     if(resultSet.isClosed() || resultSet.next()== false){
-        response.sendRedirect("index.html");
+        %><script>parent.location.href = "index.html";</script><%
     }else{
     //如果登陆有效
     //先查询到所在的部门
@@ -125,23 +125,23 @@
         row.createCell(3).setCellValue("员工部门");
 
         //开始逐条录入
-        int count = 1;//计数变量
-        while(resultSet.next()){
-            name = resultSet.getString("name");
-            account = resultSet.getString("account");
-            performance = resultSet.getString("performance");
-            //写入第count条记录
-            row = sheet.createRow(count);
-            //把员工账号记录在第一列上
-            row.createCell(0).setCellValue(account);
-            //把员工名字记录在第二列
-            row.createCell(1).setCellValue(name);
-            //把员工绩效在第三列上
-            row.createCell(2).setCellValue(performance);
-            //把员工部门记录在第四列上
-            row.createCell(3).setCellValue(onlineDepartment);
-            //计数变量自增
-            count ++;
+            int count = 1;//计数变量
+            while(resultSet.next()){
+                name = resultSet.getString("name");
+                account = resultSet.getString("account");
+                performance = resultSet.getString("performance");
+                //写入第count条记录
+                row = sheet.createRow(count);
+                //把员工账号记录在第一列上
+                row.createCell(0).setCellValue(account);
+                //把员工名字记录在第二列
+                row.createCell(1).setCellValue(name);
+                //把员工绩效在第三列上
+                row.createCell(2).setCellValue(performance);
+                //把员工部门记录在第四列上
+                row.createCell(3).setCellValue(onlineDepartment);
+                //计数变量自增
+                count ++;
         }
         //写入文件
         outputStream = new FileOutputStream(file);
@@ -163,7 +163,7 @@
 
     /**
      * 下载文件
-     */
+                */
     //得到要下载的文件
     File downloadfile = new File(tmpFileName);
     //如果文件不存在

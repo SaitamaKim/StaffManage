@@ -68,7 +68,6 @@
     resultSet = statement.executeQuery(sql);
     //如果登陆无效
     if(resultSet.isClosed() || resultSet.next()== false){
-//        response.sendRedirect("index.html");
         %><script>parent.location.href = "index.html";</script><%
     }else {
         //如果登陆有效

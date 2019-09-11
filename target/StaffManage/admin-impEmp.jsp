@@ -73,7 +73,7 @@
     resultSet = statement.executeQuery(sql);
     //如果登陆无效
     if(resultSet.isClosed() || resultSet.next()== false){
-        response.sendRedirect("i ndex.html");
+        %><script>parent.location.href = "index.html";</script><%
     }else{
         //如果登陆有效。啥也不做，自己加载下面的html
         name  = resultSet.getString("name");
@@ -115,12 +115,10 @@
         }
     }
 %>
-<%--<script>--%>
-<%--    //刷新页面--%>
-<%--    window.location.href = document.referrer;--%>
-<%--</script><%--%>
-<%--%>--%>
-<!-- 内容框开始 -->
+
+
+
+
 <div class="content">
     <div class="navTop">
         <div class="navTop__upload-outDiv">
@@ -157,17 +155,17 @@
 <%--把table内容解析成json 传给后台jsp--%>
 <script>
     function updateDataBaseForAdminOnEmp(){
-        //解析表格数据
-        var dataArray = [];
-        var trlist  =document.getElementById('tbody').children;
-        for(var index = 0 ; index< trlist.length-1; index++){
-            var row = {};
-            var tdlist = trlist[index].children;
-            row["员工账号"] = tdlist[0].innerHTML;
-            row["员工姓名"] = tdlist[1].innerHTML;
-            row["员工部门"] = tdlist[2].innerHTML;
-            row["员工绩效"] = tdlist[3].innerHTML;
-            dataArray.push(row);
+                //解析表格数据
+                var dataArray = [];
+                var trlist  =document.getElementById('tbody').children;
+                for(var index = 0 ; index< trlist.length-1; index++){
+                    var row = {};
+                    var tdlist = trlist[index].children;
+                    row["员工账号"] = tdlist[0].innerHTML;
+                    row["员工姓名"] = tdlist[1].innerHTML;
+                    row["员工部门"] = tdlist[2].innerHTML;
+                    row["员工绩效"] = tdlist[3].innerHTML;
+                    dataArray.push(row);
         }
         //虚拟表单提交
         var temp = document.createElement("form");
